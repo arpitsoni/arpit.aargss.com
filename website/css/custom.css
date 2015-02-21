@@ -1,13 +1,14 @@
 body{
 	font-family: 'Josefin Slab', serif;
 }
-/*BACKGROUND COLORS*/
-.purple-bg { background-color: rgba(189,151,204,1.00);}
-.turquoise-bg { background-color: rgba(124,205,201,1.00);}
-.yellow-bg { background-color: rgba(255,204,92,1.00);}
-.red-bg { background-color: rgba(245,135,114,1.00)}
-.gray-bg { background-color: rgb(245, 247, 247)};
-.dark-gray-bg { background-color: rgb(98, 108, 141);}
+/**** BACKGROUND COLORS s****/
+.purple-bg { background-color: rgba(189,151,204,1.00); }
+.turquoise-bg { background-color: rgba(124,205,201,1.00); }
+.yellow-bg { background-color: rgba(255,204,92,1.00); }
+.red-bg { background-color: rgba(245,135,114,1.00); }
+.gray-bg { background-color: rgba(237,239,232,1.00); }
+.dark-gray-bg { background-color: rgba(82,96,126,1.00); }
+.dark-turquoise-bg { background-color: rgba(70, 121, 119, 1); }
 
 /**** FONT COLOURS ****/
 
@@ -27,23 +28,23 @@ body{
 /**** FONT SIZES ****/
 .main-heading{
 
-	font-size: 55px;
+	font-size: 70px;
 	font-weight: bold;
 }
 
 /**** CUSTOM PADDING ****/
 .pad-top-120 { padding-top:120px; }
 .pad-top-100 { padding-top:100px; }
-.pad-top-50 { padding-top:50px; }
-.pad-top-60 { padding-top:60px; }
-.pad-top-45 { padding-top:45px; }
-.pad-top-30 { padding-top:30px; }
-.pad-top-25 { padding-top:25px; }
-.pad-top-15 { padding-top:15px; }
-.pad-top-10 { padding-top:10px; }
-.pad-top-5 { padding-top:5px; }
+.pad-top-50  { padding-top:50px; }
+.pad-top-60  { padding-top:60px; }
+.pad-top-45  { padding-top:45px; }
+.pad-top-30  { padding-top:30px; }
+.pad-top-25  { padding-top:25px; }
+.pad-top-15  { padding-top:15px; }
+.pad-top-10  { padding-top:10px; }
+.pad-top-5   { padding-top:5px; }
 
-.pad-bottom-5 { padding-bottom:5px; }
+.pad-bottom-5  { padding-bottom:5px; }
 .pad-bottom-10 { padding-bottom:10px; }
 .pad-bottom-15 { padding-bottom:15px; }
 .pad-bottom-20 { padding-bottom:20px; }
@@ -55,7 +56,7 @@ body{
 .pad-bottom-50 { padding-bottom:50px; }
 .pad-bottom-55 { padding-bottom:55px; }
 
-.pad-right-5 { padding-right:5px; }
+.pad-right-5  { padding-right:5px; }
 .pad-right-15 { padding-right:15px; }
 .pad-right-20 { padding-right:20px; }
 .pad-right-25 { padding-right:25px; }
@@ -65,15 +66,15 @@ body{
 .pad-right-45 { padding-right:45px; }
 .pad-right-50 { padding-right:50px; }
 
-.pad-left-5 { padding-left:5px; }
-.pad-left-15{ padding-left:15px; }
-.pad-left-20{ padding-left:20px; }
-.pad-left-25{ padding-left:25px; }
-.pad-left-30{ padding-left:30px; }
-.pad-left-35{ padding-left:35px; }
-.pad-left-40{ padding-left:40px; }
-.pad-left-45{ padding-left:45px; }
-.pad-left-50{ padding-left:50px; }
+.pad-left-5  { padding-left:5px; }
+.pad-left-15 { padding-left:15px; }
+.pad-left-20 { padding-left:20px; }
+.pad-left-25 { padding-left:25px; }
+.pad-left-30 { padding-left:30px; }
+.pad-left-35 { padding-left:35px; }
+.pad-left-40 { padding-left:40px; }
+.pad-left-45 { padding-left:45px; }
+.pad-left-50 { padding-left:50px; }
 
 /**** CUSTOM MARGIN ****/
 .margin-top-120 { margin-top:120px; }
@@ -84,9 +85,9 @@ body{
 .margin-top-25 { margin-top:25px; }
 .margin-top-15 { margin-top:15px; }
 .margin-top-10 { margin-top:10px; }
-.margin-top-5 { margin-top:5px; }
+.margin-top-5  { margin-top:5px; }
 
-.margin-bottom-5 { margin-bottom:15px; }
+.margin-bottom-5  { margin-bottom:15px; }
 .margin-bottom-10 { margin-bottom:60px; }
 .margin-bottom-15 { margin-bottom:40px; }
 .margin-bottom-20 { margin-bottom:45px; }
@@ -96,7 +97,7 @@ body{
 .margin-bottom-40 { margin-bottom:45px; }
 .margin-bottom-45 { margin-bottom:30px; }
 
-.margin-right-5 { margin-right:5px; }
+.margin-right-5  { margin-right:5px; }
 .margin-right-15 { margin-right:15px; }
 .margin-right-20 { margin-right:20px; }
 .margin-right-25 { margin-right:25px; }
@@ -106,18 +107,18 @@ body{
 .margin-right-45 { margin-right:45px; }
 .margin-right-50 { margin-right:50px; }
 
-.margin-left-5 { margin-left:5px; }
-.margin-left-15{ margin-left:15px; }
-.margin-left-20{ margin-left:20px; }
-.margin-left-25{ margin-left:25px; }
-.margin-left-30{ margin-left:30px; }
-.margin-left-35{ margin-left:35px; }
-.margin-left-40{ margin-left:40px; }
-.margin-left-45{ margin-left:45px; }
-.margin-left-50{ margin-left:50px; }
+.margin-left-5  { margin-left:5px; }
+.margin-left-15 { margin-left:15px; }
+.margin-left-20 { margin-left:20px; }
+.margin-left-25 { margin-left:25px; }
+.margin-left-30 { margin-left:30px; }
+.margin-left-35 { margin-left:35px; }
+.margin-left-40 { margin-left:40px; }
+.margin-left-45 { margin-left:45px; }
+.margin-left-50 { margin-left:50px; }
 
 
-.text-center{text-align: center;}
+.text-center { text-align: center; }
 
 .portfolio{
 	position: relative;
@@ -127,6 +128,7 @@ body{
 	width: 320px;
 	height: 320px;
 	padding: 0px;
+	transition: transform 1.5s;
 }
 
 .portfolio img{
@@ -144,20 +146,42 @@ body{
 	width: 100%;
 	height: 100%;
 	opacity: 0;	
-	transition: opacity 1s, background 1s;
-	
+	transition: opacity .5s, background .5s;
 }
+
+
+.portfolio:hover{ transform: rotateY(360deg); }
 
 .portfolio div:hover{
 	opacity: 1;
 	background-color: rgba(255,2,3,.4);
-	transform:rotateY(360deg);
+}
+.portfolio div.red-bg:hover{
+	opacity: 1;
+	background-color: rgba(255,2,3,.4);
+}
+.portfolio div.green-bg:hover{
+	background-color: rgba(8, 249, 103, 0.4);
+}
+.portfolio div.yellow-bg:hover{
+	background-color: rgba(249, 173, 8, .4);
+}
+.portfolio div.orange-bg:hover{
+	background-color: rgba(250, 77, 13,.4); 
+}
+.portfolio div.purple-bg:hover{
+	background-color: rgba(178, 12, 244, 0.4); 
+}
+.portfolio div.blue-bg:hover{
+	background-color: rgba(19, 82, 247, 0.4); 
 }
 
 .portfolio h3, .portfolio h4{
 	color: white;
 	text-align: center;
 }
+
+#client div{ text-align: center;}
 
 .skill-set{
 	height: 400px;
