@@ -120,6 +120,7 @@ body{
 
 .text-center { text-align: center; }
 
+/**** PORTFOLIO SECTION ****/
 .portfolio{
 	position: relative;
 	float: left;
@@ -181,14 +182,33 @@ body{
 	text-align: center;
 }
 
+/**** CLLIENT SECTION ****/
+
 #client div{ text-align: center;}
+
+/**** WATCH SECTION ****/
+
+
 
 .skill-set{
 	height: 400px;
 }
 
 .contact-set{
-	height: 200px;
+	height: 330px;
+}
+
+.twitter{
+	background: rgba(63,198,241,1.00) url(../images/social-twitter.svg);
+}
+.facebook{ 
+	background: rgba(61,91,152,1.00) url(../images/social-facebook.svg);
+}
+.linkedin{
+	background: rgba(21,124,179,1.00) url(../images/social-linkedin.svg);
+}
+.behance{
+	background: rgba(53,168,221,1.00) url(../images/social-behance.svg);
 }
 
 /* SLIDER STYLES */
