@@ -128,9 +128,8 @@ body{
 	z-index: 0;	
 	height: 320px;
 	padding: 0px;
-	transition: transform 1.5s;
+	/* transition: transform 1.5s; */
 }
-
 .portfolio img{
 	width: 100%;
 	height: 100%;
@@ -138,7 +137,6 @@ body{
 	position: relative;
 
 }
-
 .portfolio div, .portfolio div a{
 	position: absolute;
 	top: 0;
@@ -148,10 +146,6 @@ body{
 	opacity: 0;	
 	transition: opacity .5s, background .5s;
 }
-
-
-.portfolio:hover{ transform: rotateY(360deg); }
-
 .portfolio div:hover{
 	opacity: 1;
 	background-color: rgba(255,2,3,.4);
@@ -180,7 +174,9 @@ body{
 	color: white;
 	text-align: center;
 }
-
+.portfolio h3{
+	padding-top:100px;
+}
 /**** CLLIENT SECTION ****/
 
 #client div{ text-align: center;}
@@ -194,20 +190,34 @@ body{
 }
 
 .contact-set{
-	height: 330px;
+	height: 345px;
 }
 
 .twitter{
 	background: rgba(63,198,241,1.00) url(../images/social-twitter.svg);
+	transition: transform 1.5s;
+	color:white;
 }
 .facebook{ 
 	background: rgba(61,91,152,1.00) url(../images/social-facebook.svg);
+	transition: transform 1.5s;
+	color:white;
 }
 .linkedin{
 	background: rgba(21,124,179,1.00) url(../images/social-linkedin.svg);
+	transition: transform 1.5s;
+	color:white;
 }
 .behance{
 	background: rgba(53,168,221,1.00) url(../images/social-behance.svg);
+	transition: transform 1.5s;
+	color:white;
+}
+
+.twitter:hover, .facebook:hover, .behance:hover, .linkedin:hover{ 
+	transform: rotateY(360deg); 
+	text-decoration:none;
+	color:white;
 }
 
 /* SLIDER STYLES */
