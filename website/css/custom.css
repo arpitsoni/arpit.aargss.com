@@ -125,8 +125,7 @@ body{
 	position: relative;
 	float: left;
 	margin: 0px;
-	z-index: 0;
-	width: 320px;
+	z-index: 0;	
 	height: 320px;
 	padding: 0px;
 	transition: transform 1.5s;
